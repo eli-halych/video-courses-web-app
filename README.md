@@ -33,11 +33,11 @@ python manage.py runserver
 ``` 
 http://127.0.0.1:8000/courses
 ```
-- Amdin panel(user: admin, password: admin)
+- Amdin panel(user: admin, password: admin). You can create new users here and assign memberships types and subscriptions.
 ``` 
 http://127.0.0.1:8000/admin
 ```
-- Memberships(user: admin, password: admin)
+- Memberships. Log in to the admin panel first in order to access this page.
 ``` 
 http://127.0.0.1:8000/memberships
 ```
@@ -48,3 +48,7 @@ http://127.0.0.1:8000/memberships
 ```
 deactivate
 ```
+
+### PLease, note
+- DB migrations are important.
+- You can work with DB on the shell level, too, by using ``` python``` command in the terminal
