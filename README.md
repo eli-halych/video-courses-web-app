@@ -27,6 +27,23 @@ cd src
 python manage.py runserver
 ```
 
+## 5. Navigate
+- Course list
+
+``` 
+http://127.0.0.1:8000/courses
+```
+- Amdin panel(user: admin, password: admin)
+``` 
+http://127.0.0.1:8000/admin
+```
+- Memberships(user: admin, password: admin)
+``` 
+http://127.0.0.1:8000/memberships
+```
+- When "buying" new memberships, use these test card numbers
+[Test cards here](https://stripe.com/docs/testing#cards)
+
 ## 5. Deactivate the virtual environment
 ```
 deactivate
